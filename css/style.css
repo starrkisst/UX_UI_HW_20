@@ -1,5 +1,12 @@
+
+
+
+
 h2, p {
-    font-family: Museo Slab
+    font-family: Museo Slab;
+   
+     
+      
 
 }
 button {
@@ -21,8 +28,36 @@ button {
     
     }
 
+    .user_Research {
+
+        padding:48px;
+        background-color: #f05162;
+    }
+
+    .ideation {
+        margin: 48px;
+        padding:24px;
+    }
+
+
+    .information_Architecture{
+        margin: 48px;
+        padding:24px;
+        background-color: #f0d351;
+         
+    }
+
+    .prototyping{
+        margin: 48px;
+        padding:24px;
+    }
+
+    .button_Color {
+        color: #DB504A;
+        background-color: #ffffff;
     .h1 {
 
+       padding="24px"
         font-family: Museo Slab;
         font-style: normal;
         font-weight: bold;
@@ -42,3 +77,31 @@ button {
             /*  OR Image in the center bottom of the container  */
             background-position: center bottom;
         }
+
+.h3 {
+            
+padding: 24px;
+margin: 24px;
+font-family: Museo;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 180%;
+color: #DB504A
+        }
+
+.smallCopy {
+
+        font-family: Museo Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 180%;
+        /* or 29px */
+        
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+        
+        color: #000000;
+}

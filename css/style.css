@@ -1,0 +1,44 @@
+h2, p {
+    font-family: Museo Slab
+
+}
+button {
+    padding: 32px;
+    height: 68px;
+    font-family: Museo Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    background-color: #DB504A;
+    color: #ffffff;
+    border:none;
+    
+    }
+
+    .h1 {
+
+        font-family: Museo Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 67px;
+        display: flex;
+        align-items: center;
+        }
+
+        .jumbotron {
+            /* Image in the center of container */
+            background-position: center center;
+        
+            /*  OR Image in the center top of the container */
+            background-position: center top;
+        
+            /*  OR Image in the center bottom of the container  */
+            background-position: center bottom;
+        }
